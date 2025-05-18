@@ -41,21 +41,24 @@ These examples are designed to provide hands-on experience with socket programmi
 
 Some key files in this repository include:
 
-- `ArduinoServer.py`: Python script for Arduino communication over network
+- `ArduinoServer.c`: C script for Arduino communication over network
 - `GuiClient.py`: Python-based graphical user interface client
-- `MultithreadedServer.py`: TCP server using multithreading to handle multiple clients
-- `TCPClinet.m`: MATLAB TCP client (filename likely meant to be `TCPClient.m`)
+
+- `MultithreadedServer.py`: TCP server using multithreading to handle multiple clients using TCP Echo Client
 - `TCPEchoClient.py` / `TCPEchoServer.py`: Basic TCP echo model
 - `TCPpeeroneother.py` / `TCPpeertopeer.py`: Peer-to-peer TCP communication
-- `UDPClinet.m` / `UDPClinetTimer.m`: MATLAB UDP clients with timing features
 - `UDPEchoClient.py` / `UDPEchoserver.py`: Basic UDP echo model in Python
 - `UDPpeeroneother.py` / `UDPpeertopeer.py`: Peer-to-peer UDP communication
 - `UDPTimerClient.py` / `UDPTimerServer.py`: Timed UDP communication
+
+- `TCPClinet.m` / `TCPServer.m` : MATLAB TCP client and Server
+- `UDPClinet.m` / `UDPClinetTimer.m`: MATLAB UDP clients with timing features
+  
 - `ECE369-main.zip`: ZIP archive of the project contents
 
 ---
 
-## ⚙ Getting Started
+## Getting Started
 
 To explore and run the examples:
 
